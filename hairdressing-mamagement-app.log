@@ -1,0 +1,23 @@
+2020-02-09 11:04:13.869  INFO 31307 --- [main] rdressingCoreManagementSistemApplication : Starting HairdressingCoreManagementSistemApplication on nikola-HP-Laptop-17-by0xxx with PID 31307 (/home/nikola/hairdressing-core-management-sistem/out/production/classes started by nikola in /home/nikola/hairdressing-core-management-sistem)
+2020-02-09 11:04:13.882 DEBUG 31307 --- [main] rdressingCoreManagementSistemApplication : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-09 11:04:13.883  INFO 31307 --- [main] rdressingCoreManagementSistemApplication : The following profiles are active: prod
+2020-02-09 11:04:15.133  INFO 31307 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-09 11:04:15.285  INFO 31307 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 1 JPA repository interfaces.
+2020-02-09 11:04:15.941  INFO 31307 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-09 11:04:16.424  INFO 31307 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-02-09 11:04:16.563  INFO 31307 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2574 ms
+2020-02-09 11:04:19.766  INFO 31307 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-09 11:04:20.938  WARN 31307 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-09 11:04:21.204  INFO 31307 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-09 11:04:22.101  INFO 31307 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-02-09 11:04:22.104  INFO 31307 --- [main] rdressingCoreManagementSistemApplication : Started HairdressingCoreManagementSistemApplication in 9.065 seconds (JVM running for 9.582)
+2020-02-09 12:35:58.204  INFO 31307 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-09 12:35:58.217  INFO 31307 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-02-09 12:35:58.258  INFO 31307 --- [http-nio-8090-exec-2] c.h.c.admin.UserAdminController          : Recieved get admin users collection request
+2020-02-09 12:35:58.560  INFO 31307 --- [http-nio-8090-exec-2] c.h.s.a.UserAdminServiceImplement        : Collection of all available users returned -user view
+2020-02-09 12:35:58.579 DEBUG 31307 --- [http-nio-8090-exec-2] c.h.d.d.d.UserAdminFasade                : Users collection returned to UserAdminFacade.
+2020-02-09 12:35:58.630 DEBUG 31307 --- [http-nio-8090-exec-2] c.h.d.d.d.UserDtoConverterImplement      : Convert to data transfer object successfully converted user object.
+2020-02-09 12:35:58.630 DEBUG 31307 --- [http-nio-8090-exec-2] c.h.d.d.d.UserAdminFasade                : Users collection successfully converted to data transfer object and returned to user controller. UsersDto: [UserDto(finishedServices=[], role=null, address=null, firstName=asfas, lastName=asfasf, password=dddd, userName=afasfasf, phone=asfasf, email=test@gmail.com)]
+2020-02-09 12:35:58.630 DEBUG 31307 --- [http-nio-8090-exec-2] c.h.c.admin.UserAdminController          : Get users - Successfully returned collection of users to controller, users: [UserDto(finishedServices=[], role=null, address=null, firstName=asfas, lastName=asfasf, password=dddd, userName=afasfasf, phone=asfasf, email=test@gmail.com)]
+2020-02-09 19:58:51.387  INFO 31307 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-09 19:58:51.388  INFO 31307 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
